@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: README.md
-  label: README
-  read_only: true
 - type: heading
   label: Blog Post
 - type: directory
@@ -39,6 +35,10 @@ sections:
 - type: document
   path: config.toml
   label: Configuration
+- type: document
+  path: README.md
+  label: README
+  read_only: true
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
