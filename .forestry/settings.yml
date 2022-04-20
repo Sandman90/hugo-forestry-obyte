@@ -13,6 +13,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: gallery-models
+  label: 3D models
+  create: all
+  match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Others Pages
 - type: directory
