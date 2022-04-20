@@ -1,4 +1,12 @@
 ---
 label: 3D model
 hide_body: true
-fields: []
+fields:
+- name: color
+  type: color
+  label: Color
+  config:
+    required: false
+    color_format: Hex
+  description: Descrizione
+  hidden: false
