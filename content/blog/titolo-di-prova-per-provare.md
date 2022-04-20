@@ -6,6 +6,9 @@ description = ""
 image = ""
 tags = []
 title = "Titolo di prova per provare"
+[menu.main]
+name = "3D models"
+weight = 2
 
 +++
 Vediamo come funziona hugo con forestry
